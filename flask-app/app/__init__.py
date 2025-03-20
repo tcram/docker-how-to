@@ -8,7 +8,7 @@ app = Flask(__name__)
 # This defines that when someone visits <URL>/ the hello_world application should run
 @app.route('/')
 def home():
-    return render_template("home.html")
+    return render_template('home.html')
 
 @app.route('/templates/navbar.html')
 def navbar():
